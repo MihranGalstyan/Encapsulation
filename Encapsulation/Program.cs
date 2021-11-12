@@ -20,9 +20,9 @@ namespace Encapsulation
             WriteDepartment instance4 = new WriteDepartment();
             instance4.Departname = "COMPUTERSCIENCE";
 
-            Bank InecoBank = new Bank();
-            InecoBank.setBalance(500);
-            Console.WriteLine(InecoBank.getBalance());
+            Bank inecoBank = new Bank();
+            inecoBank.SetBalance(500);
+            Console.WriteLine(inecoBank.GetBalance());
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
 
@@ -38,10 +38,10 @@ namespace Encapsulation
             //We cannot use the variable directly here
             // e.x = 50; //Compile time errr
             // Console.WriteLine(e.x); //Compile time errr
-            instance6.setX(10);
-            Console.WriteLine(instance6.getX());
-            instance6.setX(-50);
-            Console.WriteLine(instance6.getX());
+            instance6.SetX(10);
+            Console.WriteLine(instance6.GetX());
+            instance6.SetX(-50);
+            Console.WriteLine(instance6.GetX());
             Console.WriteLine("Press any key to exit");
             Console.ReadKey();
         }

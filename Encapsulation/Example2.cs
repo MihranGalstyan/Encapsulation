@@ -5,11 +5,11 @@ namespace Encapsulation
     public class Example2
     {
         private int x;
-        public int getX()
+        public int GetX()
         {
             return x;
         }
-        public void setX(int x)
+        public void SetX(int x)
         {
             if (x > 0)
             {

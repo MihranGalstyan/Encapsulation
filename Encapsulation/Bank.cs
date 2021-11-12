@@ -12,12 +12,12 @@ namespace Encapsulation
         private double balance;
 
         //Creating public setter and getter methods
-        public double getBalance()
+        public double GetBalance()
         {
             //Add validation logic if needed
             return balance;
         }
-        public void setBalance(double balance)
+        public void SetBalance(double balance)
         {
             // Add validation logic to check whether data is correct or not
             if (balance > 0)
