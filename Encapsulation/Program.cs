@@ -7,18 +7,18 @@ namespace Encapsulation
         static void Main(string[] args)
         {
             Department instance1 = new Department();
-            instance1.SetDepartname("ELECTRONICS");
-            Console.WriteLine("The Department is :" + instance1.GetDepartname());
+            instance1.SetDepartName("ELECTRONICS");
+            Console.WriteLine("The Department is :" + instance1.GetDepartName());
 
             Department2 instance2 = new Department2();
-            instance2.Departname = "Communication";
-            Console.WriteLine("The Department is :", instance2.Departname);
+            instance2.DepartName = "Communication";
+            Console.WriteLine("The Department is :", instance2.DepartName);
 
             ReadDepartment instance3 = new ReadDepartment("COMPUTERSCIENCE");
             Console.WriteLine("The Department is: ", instance3.Departname);
 
             WriteDepartment instance4 = new WriteDepartment();
-            instance4.Departname = "COMPUTERSCIENCE";
+            instance4.DepartName = "COMPUTERSCIENCE";
 
             Bank inecoBank = new Bank();
             inecoBank.SetBalance(500);

@@ -4,15 +4,15 @@ namespace Encapsulation
 {
     class WriteDepartment
     {
-        private string departname;
-        public string Departname
+        private string departName;
+        public string DepartName
         {
             set
             {
-                if (departname != null)
+                if (departName != null)
                 {
-                    departname = value;
-                    Console.WriteLine("The Department is : ", departname);
+                    departName = value;
+                    Console.WriteLine("The Department is : ", departName);
                 }
                 else
                 {

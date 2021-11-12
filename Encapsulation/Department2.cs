@@ -7,16 +7,16 @@ namespace Encapsulation
 {
     class Department2
     {
-        private string departname;
-        public string Departname
+        private string departName;
+        public string DepartName
         {
             get
             {
-                return departname;
+                return departName;
             }
             set
             {
-                departname = value;
+                departName = value;
             }
         }
     }

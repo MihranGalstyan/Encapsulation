@@ -4,18 +4,18 @@ namespace Encapsulation
 {
     class Department
     {
-        private string departname;
+        private string departName;
 
         // Accessor.  
-        public string GetDepartname()
+        public string GetDepartName()
         {
-            return departname;
+            return departName;
         }
 
         // Mutator.  
-        public void SetDepartname(string name)
+        public void SetDepartName(string name)
         {
-            departname = name;
+            departName = name;
         }
     }
 }
