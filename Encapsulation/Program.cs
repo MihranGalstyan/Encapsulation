@@ -12,10 +12,10 @@ namespace Encapsulation
 
             Department2 instance2 = new Department2();
             instance2.Departname = "Communication";
-            Console.WriteLine("The Department is :{0}", instance2.Departname);
+            Console.WriteLine("The Department is :", instance2.Departname);
 
             ReadDepartment instance3 = new ReadDepartment("COMPUTERSCIENCE");
-            Console.WriteLine("The Department is: {0}", instance3.Departname);
+            Console.WriteLine("The Department is: ", instance3.Departname);
 
             WriteDepartment instance4 = new WriteDepartment();
             instance4.Departname = "COMPUTERSCIENCE";
@@ -23,7 +23,7 @@ namespace Encapsulation
             Bank InecoBank = new Bank();
             InecoBank.setBalance(500);
             Console.WriteLine(InecoBank.getBalance());
-            Console.WriteLine("Press any key to exist.");
+            Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
 
             Example1 instance5 = new Example1();
@@ -31,7 +31,7 @@ namespace Encapsulation
             Console.WriteLine(instance5.x);
             instance5.x = -10;
             Console.WriteLine(instance5.x);
-            Console.WriteLine("Press any key to exist");
+            Console.WriteLine("Press any key to exit");
             Console.ReadKey();
 
             Example2 instance6 = new Example2();
@@ -42,7 +42,7 @@ namespace Encapsulation
             Console.WriteLine(instance6.getX());
             instance6.setX(-50);
             Console.WriteLine(instance6.getX());
-            Console.WriteLine("Press any key to exist");
+            Console.WriteLine("Press any key to exit");
             Console.ReadKey();
         }
     }
